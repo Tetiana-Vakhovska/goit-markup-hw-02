@@ -1,0 +1,22 @@
+:root{
+    --primary-text-color:757575;
+    --title-text-color:212121;
+    --accent-color:2196F3;
+    --primery-white-color:#FFFFFF;
+}
+body { font-family ; 
+color:var(--primary-text-color:757575;) ;
+Size 14px;
+Line-height 1.7px;
+}
+/* COLOR
+ 757575 
+АКЦЕНТ КОЛОР 2196F3
+ЗАГОЛОВКИ 212121
+ТЕКСТ 757575 
+*/
+ul{list-style: none;}
+
+.nav{ 
+
+}
