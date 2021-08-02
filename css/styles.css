@@ -4,10 +4,9 @@
   --accent-color: 2196f3;
   --primery-white-color: #ffffff;
 }
-
 body {
   font-family: Roboto,
-    Weight 400 Size 14px Line height 1.4 color var(--accent-color);
+    Weight 400 Size 14px Line height 1.4 color var(--title-text-color);
 }
 .link {
   font-family: Roboto Font-style Medium Font-size 14px Line-height 1.14 color
