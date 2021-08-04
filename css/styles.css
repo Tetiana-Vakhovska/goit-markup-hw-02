@@ -30,6 +30,7 @@ a {
   line-height: 1.9;
   color: var(--primery-white-color);
   background: #2196f3;
+  cursor: pointer;
 }
 .hero-mini {
   font-size: 36px;
@@ -74,12 +75,10 @@ a {
   font-weight: 500;
   color: var(---title-text-color);
   background: #f5f4fa;
+  cursor: pointer;
 }
 .button:hover,
 .buttonn:focus {
-  font-size: 16px;
-  line-height: 1.6;
-  font-weight: 500;
   color: var(--primery-white-color);
   background: #2196f3;
 }
