@@ -1,8 +1,11 @@
 :root {
-  --primary-text-color: 757575;
-  --title-text-color: 212121;
-  --accent-color: 2196f3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
   --primery-white-color: #ffffff;
+  --section-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
+  --black-texst-color: #000000;
 }
 body {
   font-family: Roboto;
@@ -17,50 +20,66 @@ ul {
 a {
   text-decoration: none;
 }
-.hero {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--primery-white-color);
+  background-color: var(--section-bg-color);
 }
-.buttonn {
+.prymery-button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
   color: var(--primery-white-color);
-  background: #2196f3;
+  background: var(--accent-color);
   cursor: pointer;
 }
-.hero-mini {
+
+.title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   color: var(--title-text-color);
 }
-.items {
+.benefit-title {
   font-size: 14px;
   line-height: 1.17;
   font-weight: 700;
   color: var(--title-text-color);
 }
+.benefit {
+}
+.benefit-description {
+}
+
 .link {
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
 }
-.name-por {
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.img {
+}
+.portfolio-item-title {
   font-weight: 700;
   line-height: 2;
   color: var(--title-text-color);
   font-size: 18px;
 }
-.divide {
+.portfolio-item-divide {
   font-size: 16px;
   line-height: 1.86;
   color: var(--primary-text-color);
 }
-.name-team {
+.team {
+}
+.member-team {
+}
+.name-team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -69,18 +88,18 @@ a {
 .position {
   font-size: 16px;
 }
-.button {
+.secondary-button {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
   color: var(---title-text-color);
-  background: #f5f4fa;
+  background: var(--button-bg-color);
   cursor: pointer;
 }
-.button:hover,
-.buttonn:focus {
+.secondary-button:hover,
+.secondary-button:focus {
   color: var(--primery-white-color);
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .link-nav {
   font-size: 14px;
@@ -90,18 +109,18 @@ a {
 }
 .link-nav:hover,
 .link-nav:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.contacts {
+.contact-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
-  color: #757575;
+  color: var(--primary-text-color);
 }
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
 .logo {
   font-family: Raleway;
@@ -110,14 +129,20 @@ a {
   line-height: 1.17;
   color: var(--accent-color);
 }
-.studio {
-  color: #000000;
+.black-texst {
+  color: var(--black-texst-color);
+}
+.white-texst {
+  color: var(--primery-white-color);
 }
 .contacts-footer {
   line-height: 1.7;
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 .footer,
 .hero-section {
-  background: #2f303a;
+  background: var(--section-bg-color);
+}
+.address-section {
+  font-style: normal;
 }
